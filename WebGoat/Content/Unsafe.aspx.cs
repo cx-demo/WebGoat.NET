@@ -11,7 +11,7 @@ namespace OWASP.WebGoat.NET.Content
 
         public unsafe void btnReverse_Click(object sender, EventArgs args)
         {
-            const string msg = "passwor";
+            //const string msg = "passwor";
             const int INPUT_LEN = 256;
             char[] fixedChar = new char[INPUT_LEN];
 

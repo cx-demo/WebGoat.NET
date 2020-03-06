@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WebGoat</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddNewUser.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/00.reset.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/01.960_24_col.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/02.text.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/03.layout.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/BreadCrumb.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/buttons.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/Forms.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/grids.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/blank.gif">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/calendar.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/Chevron.gif">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/ChevronOverlay.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/eisk-logo.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/extras/ico-delete.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/extras/loader-modal.gif">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/header-grad.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/IconHome.gif">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/listing/asc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/listing/desc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/listing/ico-edit.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/listing/ico-view.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/listing/sort-regular.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/logo.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/images/logo2.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/left-menu.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="App_Themes/Default/WebGoat.skin">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="bin/DotNetGoat.dll">
+      <publishTime>03/06/2020 17:39:40</publishTime>
+    </File>
+    <File Include="bin/DotNetGoat.pdb">
+      <publishTime>03/06/2020 17:39:40</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>05/17/2019 16:19:42</publishTime>
+    </File>
+    <File Include="bin/EnvDTE80.dll">
+      <publishTime>05/17/2019 16:19:42</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/Mono.Data.Sqlite.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/mysql.data.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/mysql.data.entity.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/mysql.visualstudio.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/mysql.web.dll">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>05/17/2019 16:21:20</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/About.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/BasicAuth.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Challenge1.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Challenge2.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Challenge3.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ChangePwd.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ClientSideStorage.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/CommandInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/CSRFDemo.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/DomXSS.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/EmbeddedError.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/EncryptVSEncode.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Error.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ExploitDebug.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/FlashScripting.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ForcedBrowsing.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ForgotPassword.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/FormBasedAuth.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Global.asax">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/HeaderInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/HiddenField.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/InjectionExercise.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/jQueryInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/JSONInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/LogInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/LogoutIssues.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/MessageDigest.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ParamTampering.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/PathManipulation.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/PwdComplexity.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Random.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ReadlineDoS.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ReflectedXSS.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/RegexDoS.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/ResponseSplitting.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/SamplePage.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/SessionExercise.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/SessionFixation.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/SQLInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/SQLInjectionDiscovery.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/StoredXSS.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Trace.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Unsafe.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/UploadPathManipulation.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/VerbTampering.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/VerbTamperingAttack.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Viewstate.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/Worm.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/WSAttacks.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/WSDL.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/XMLInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/XPathInjection.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Content/XSSExercise.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/alphacognac.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/americanbankinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/amicacoinsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/angresellers.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/annasdecorations.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/antondesigns.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/asianshoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/asiantreasures.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/ateliergraphique.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/australiancollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/australiancollectors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/australiangoldnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/avstores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/baanepreciousimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/bavariancollectablesimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/bgecollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/blauerseemetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/boardscoinsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/cafimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/cambridgecollectablesco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/canadiangoldexchangenetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/classicgoldideas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/classiclegendsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/clovercollections.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/coinageandthingsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/coinrmintdistributorsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/coins4grownupscom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/coinsoffinland.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/collectablepreciousdesignsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/collectablesforlessinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/corporategoldideasco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/corridametalsreplicas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/cramerspezialitten.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/cruzsonsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/daedalusdesignsimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/danishwholesaleimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/derhundimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/doubledeckergoldstores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/downundercoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/dragoncoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/enacodistributors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/euroshoppingchannel.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/extremedeskdecorations.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/feueronlinestores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/frankengold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/fraudacollezione.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/fungoldideascom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/goatgoldstore.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/gold4allagescom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/goldbymailcouk.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/golddepotinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/goldforhimcom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/goldideascorp.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/handjigoldco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/havelzbyszekco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/heintzecollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/herkkugold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/iberiagoldimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/kellysgoldshop.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/kingkongcollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/kommissionmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/kremlincollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/lacornedabondance.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/landofcoinsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/larochellegold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/lisboacoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/lordinecoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/lyoncoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/marseillepreciousmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/martasreplicasco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/menrusretailers.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/messnershoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/metalsassociscie.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/metalscanalpetit.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/metalscoinclassicsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/microsilverinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/mitvergngenco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/musclecoinsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/natrlichmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/norwaygoldbymail.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/onlinepreciouscollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/onlinepremiumcreationsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/osakacoinageco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/oulutoysupplies.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/petitmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/portoimportsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciouscaravy.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciousclassics.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciouscollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciouscreationsltd.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciousgolddistributorsltd.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciousmetalsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/preciousmetalswerke.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/premiumclassicsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/premiumcollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/qubechomeshoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/raananstores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/reimscollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/rovelligold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/royalcanadiancollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/royalebelge.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/salzburgcollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/sardistributors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/saveleyhenriot.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/scandinaviangoldideas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/schuylerimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/signalcollectiblesltd.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/stuttgartcollectableexchange.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/stylishdeskdecors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/suominencoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/supersilverinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/technicsstoresinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/teknicollectablesinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/thesharpgoldwarehouse.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/tokyocollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/tomsspezialitten.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/ukcollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/vidasport.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/vitachromeinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/volvomodelreplicas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/warburgexchange.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/logos/westcoastcollectablesco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/07AEPltProofRevThumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2008_AESilverProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2008_AE_Plat_Bullion_Thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2009WHHarrisonObvthumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2010MFillmore_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2010_AEGoldProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2011-Gold-Eagle-unc-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2011-SilverEagle-unc-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2011-Unc-Gettysburg_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2011AJohnson_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2011_AE_PlatProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-ATB-El-Yunque_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-Gold-Eagle-bullion-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-Natl-Infantry-Commem-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-Proof-HalfDollar-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-Proof-Nickel-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/2012-SilverEagle-bullion-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/21_Arthur_Pre1_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/AEPlatUnc_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/EJohnson_Proof-thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/HOTSPRINGS_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/SSB_Gold_thumb_LineArt.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/stacked-coins2_thumb.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/thumbBuffaloBullion.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/thumbJMonroe.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="DB_Scripts/products/thumbWashington.jpg">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="LoginPage.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="ProxySetup.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="RebuildDatabase.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery-1.3.2.min.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery-1.4.2.min.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery-1.6.2.min.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery-ui-1.8.16.custom.min.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery.autocomplete-min.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/jquery.autocomplete.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/client-scripts/menu.js">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/images/infrared_logo.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/images/moreinfo.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/images/moreinfo1.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/images/moreinfo2.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-libs/autocomplete/images/shadow.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-libs/autocomplete/styles.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_flat_15_cd0a0a_40x100.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_glass_100_e4f1fb_1x400.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_glass_50_3baae3_1x400.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_glass_80_d7ebf9_1x400.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_highlight-hard_70_000000_1x100.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_highlight-soft_100_deedf7_1x100.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-bg_highlight-soft_25_ffef8f_1x100.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-icons_2694e8_256x240.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-icons_3d80b3_256x240.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-icons_72a7cf_256x240.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/jquery-ui/jquery-ui-1.8.16.custom.css">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Resources/Master-Pages/Site.Master">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/06/2020 17:11:34</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Autocomplete.ashx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Catalog.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/ChangePassword.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/CustomerLogin.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/CustomerSettings.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Debug.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/ForgotPassword.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/alphacognac.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/americanbankinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/amicacoinsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/angresellers.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/annasdecorations.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/antondesigns.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/asianshoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/asiantreasures.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/ateliergraphique.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/australiancollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/australiancollectors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/australiangoldnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/avstores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/baanepreciousimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/bavariancollectablesimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/bgecollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/blauerseemetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/boardscoinsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/cafimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/cambridgecollectablesco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/canadiangoldexchangenetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/classicgoldideas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/classiclegendsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/clovercollections.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/coinageandthingsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/coinrmintdistributorsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/coins4grownupscom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/coinsoffinland.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/collectablepreciousdesignsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/collectablesforlessinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/corporategoldideasco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/corridametalsreplicas.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/cramerspezialitten.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/cruzsonsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/daedalusdesignsimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/danishwholesaleimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/derhundimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/doubledeckergoldstores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/downundercoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/dragoncoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/enacodistributors.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/euroshoppingchannel.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/extremedeskdecorations.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/feueronlinestores.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/frankengold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/fraudacollezione.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/fungoldideascom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/goatgoldstore.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/gold4allagescom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/goldbymailcouk.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/golddepotinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/goldforhimcom.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/goldideascorp.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/handjigoldco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/havelzbyszekco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/heintzecollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/herkkugold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/iberiagoldimports.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/kellysgoldshop.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/kingkongcollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/kommissionmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/kremlincollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/lacornedabondance.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/landofcoinsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/larochellegold.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/lisboacoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/lordinecoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/lyoncoinage.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/marseillepreciousmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/martasreplicasco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/menrusretailers.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/messnershoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/metalsassociscie.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/metalscanalpetit.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/metalscoinclassicsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/microsilverinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/mitvergngenco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/musclecoinsinc.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/natrlichmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/norwaygoldbymail.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/onlinepreciouscollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/onlinepremiumcreationsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/osakacoinageco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/oulutoysupplies.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/petitmetals.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/portoimportsco.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciouscaravy.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciousclassics.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciouscollectables.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciouscreationsltd.png">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciousgolddistributorsltd.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciousmetalsco.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/preciousmetalswerke.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/premiumclassicsinc.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/premiumcollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/qubechomeshoppingnetwork.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/raananstores.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/reimscollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/rovelligold.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/royalcanadiancollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/royalebelge.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/salzburgcollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/sardistributors.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/saveleyhenriot.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/scandinaviangoldideas.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/schuylerimports.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/signalcollectiblesltd.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/stuttgartcollectableexchange.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/stylishdeskdecors.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/suominencoinage.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/supersilverinc.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/technicsstoresinc.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/teknicollectablesinc.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/thesharpgoldwarehouse.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/tokyocollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/tomsspezialitten.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/ukcollectables.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/vidasport.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/vitachromeinc.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/volvomodelreplicas.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/warburgexchange.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/logos/westcoastcollectablesco.png">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/07AEPltProofRevThumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2008_AESilverProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2008_AE_Plat_Bullion_Thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2009WHHarrisonObvthumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2010MFillmore_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2010_AEGoldProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2011-Gold-Eagle-unc-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2011-SilverEagle-unc-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2011-Unc-Gettysburg_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2011AJohnson_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2011_AE_PlatProof_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-ATB-El-Yunque_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-Gold-Eagle-bullion-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-Natl-Infantry-Commem-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-Proof-HalfDollar-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-Proof-Nickel-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/2012-SilverEagle-bullion-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/21_Arthur_Pre1_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/AEPlatUnc_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/EJohnson_Proof-thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/HOTSPRINGS_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/SSB_Gold_thumb_LineArt.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/stacked-coins2_thumb.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/thumbBuffaloBullion.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/thumbJMonroe.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/images/products/thumbWashington.jpg">
+      <publishTime>03/06/2020 11:47:18</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Logout.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/MainPage.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Orders.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/ProductDetails.aspx">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+    <File Include="WebGoatCoins/Web.config">
+      <publishTime>03/06/2020 11:47:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
