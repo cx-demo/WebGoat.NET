@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\inetpub\wwwroot\WebGoat</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WebGoat.Net</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AddNewUser.aspx">
@@ -91,10 +91,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/06/2020 11:47:17</publishTime>
     </File>
     <File Include="bin/DotNetGoat.dll">
-      <publishTime>03/06/2020 17:39:40</publishTime>
+      <publishTime>03/06/2020 18:51:13</publishTime>
     </File>
     <File Include="bin/DotNetGoat.pdb">
-      <publishTime>03/06/2020 17:39:40</publishTime>
+      <publishTime>03/06/2020 18:51:13</publishTime>
     </File>
     <File Include="bin/EnvDTE.dll">
       <publishTime>05/17/2019 16:19:42</publishTime>
